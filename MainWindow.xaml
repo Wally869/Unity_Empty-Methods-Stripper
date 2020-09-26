@@ -1,0 +1,15 @@
+﻿<Window x:Class="NoEmptyMethods.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoEmptyMethods"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Button Content="Select File" HorizontalAlignment="Left" Height="60" Margin="47,182,0,0" VerticalAlignment="Top" Width="125" Click="Select_File_Button_Click"/>
+        <Button Content="Run" HorizontalAlignment="Left" Height="60" Margin="236,182,0,0" VerticalAlignment="Top" Width="124" Click="Run_Button_Click"/>
+        <Label x:Name="FileNameDisplay"  Content="FileName" HorizontalAlignment="Center" Height="42" Margin="0,24,0,0" VerticalAlignment="Top" Width="204"/>
+
+    </Grid>
+</Window>
