@@ -7,9 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="400">
     <Grid>
-        <Button Content="Select File" HorizontalAlignment="Left" Height="60" Margin="47,182,0,0" VerticalAlignment="Top" Width="125" Click="Select_File_Button_Click"/>
-        <Button Content="Run" HorizontalAlignment="Left" Height="60" Margin="236,182,0,0" VerticalAlignment="Top" Width="124" Click="Run_Button_Click"/>
-        <Label x:Name="FileNameDisplay"  Content="FileName" HorizontalAlignment="Center" Height="42" Margin="0,24,0,0" VerticalAlignment="Top" Width="204"/>
+        <Button Content="Select&#xD;&#xA;Folder" HorizontalAlignment="Left" Height="118" Margin="272,24,0,0" VerticalAlignment="Top" Width="78" Click="Select_Folder_Button_Click"/>
+        <Button Content="Run" HorizontalAlignment="Left" Height="60" Margin="75,170,0,0" VerticalAlignment="Top" Width="125" Click="Run_Button_Click"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="60" Margin="225,170,0,0" VerticalAlignment="Top" Width="125" Click="Exit_Button_Click"/>
+        <TextBlock x:Name="FolderNameDisplay" HorizontalAlignment="Left" Height="116" Margin="75,26,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
 
     </Grid>
 </Window>

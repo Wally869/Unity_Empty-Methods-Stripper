@@ -30,7 +30,7 @@ I use the following Regular Expressions, if you want to do your own utility:
 
 
 
-The software reads a file, matches and replace on the previously defined Regular Expressions. All empty methods will be 
+The software reads a file, matches and replace on the previously defined Regular Expressions. All empty methods will be deleted.  
 
 
 
