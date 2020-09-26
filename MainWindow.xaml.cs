@@ -57,7 +57,7 @@ namespace NoEmptyMethods
             {
                 string text = File.ReadAllText(_mFilePath);
                 text = RegExHandler.MatchAndDelete(text);
-                File.WriteAllText("heyaBuddy.cs", text);
+                File.WriteAllText("outputFile.cs", text);
                 MessageBox.Show("File Processed Successfully!", "Success");
             }
             }
