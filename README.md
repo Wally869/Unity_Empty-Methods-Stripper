@@ -7,7 +7,9 @@ Small C# WPF application to strip Empty methods from Unity projects to enhance p
 
 Unity calls GameObjects'  callbacks (such as Update and Start) even when they are empty, as long as they are defined, which eats into the frame budget. What's more they are not stripped when compiling to release. The problem is that they are part of the boilerplate of creating a new Class so it is possible to forget them. 
 
-This repo is a simple utility written in C# that gets all .cs files in a folder and its subfolders, strips ALL empty methods from the input string and writes back to the files.
+This repo is a simple utility written in C# that gets all .cs files in a folder and its subfolders, strips ALL empty methods from the input string and writes back to the files. Select a folder, click run, and you're done!   
+
+
 
 ![Overview of the app](ReadmeImages/overview.JPG)
 
